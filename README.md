@@ -76,8 +76,6 @@ Projet hébergé sur **Vercel** :
 ---
 
 ## 👨‍💻 Auteur
-- 👤 aya benzine
-- 🔗 [LinkedIn](https://www.linkedin.com/in/aya-ben-a700a8351/)
 - 👤 zakaria ennaqui
 - 🔗 [LinkedIn](https://www.linkedin.com/in/zakaria-ennaqui-990883362)
 - 💻 [GitHub](https://github.com/zakariaennaqui)
