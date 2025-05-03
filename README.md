@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# 🚗 Plateforme de Gestion de Parking – React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Une application web pour gérer les utilisateurs d'un parking avec enregistrement, identification par ID, statut de paiement, et interface admin sécurisée.
 
-## Available Scripts
+## 🎯 Objectif
 
-In the project directory, you can run:
+Cette plateforme permet :
 
-### `npm start`
+- Aux utilisateurs de s'inscrire avec nom et matricule
+- De recevoir automatiquement un ID unique
+- De se connecter avec leur ID et voir s'ils ont payé
+- D'effectuer un paiement local (simulé)
+- À un administrateur (protégé par mot de passe) d'ajouter, supprimer et consulter tous les utilisateurs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧱 Fonctionnalités
 
-### `npm test`
+- ✅ Enregistrement et génération automatique d’un ID
+- ✅ Identification via l’ID
+- ✅ Paiement local simulé
+- ✅ Interface admin protégée par mot de passe (`admin`)
+- ✅ Ajout et suppression d’utilisateurs (CRUD)
+- ✅ Stockage persistant avec `localStorage`
+- ✅ Déployé sur Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Technologies utilisées
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React.js](https://reactjs.org/) (v18+)
+- HTML / CSS
+- `localStorage` pour simuler une base de données
+- Déploiement via [Vercel](https://vercel.com)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Structure du projet
 
-### `npm run eject`
+- /src
+- ├── App.js # Composant principal
+- ├── components/
+- │ ├── UserForm.js # Formulaire utilisateur
+- │ ├── UserInfo.js # Affichage des infos utilisateur
+- │ ├── Payment.js # Paiement (simulé)
+- │ └── UserList.js # Admin – Liste et gestion des utilisateurs
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔒 Accès admin
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Mot de passe par défaut : `admin`
+- Permet d'accéder à :
+  - Liste complète des utilisateurs
+  - Formulaire d’ajout d’utilisateur
+  - Suppression d’utilisateurs
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Déploiement
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Projet hébergé sur **Vercel** :
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> 🔗 [Lien de la démo](https://parking-platform-two.vercel.app)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧩 Possibilités d'amélioration
 
-### Analyzing the Bundle Size
+- Authentification sécurisée (email/mot de passe)
+- Intégration Firebase ou Supabase
+- Paiement réel via Stripe
+- Responsive mobile
+- Système de notifications
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 👨‍💻 Auteur
+- 👤 aya benzine
+- 🔗 [LinkedIn](https://www.linkedin.com/in/aya-ben-a700a8351/)
+- 👤 zakaria ennaqui
+- 🔗 [LinkedIn](https://www.linkedin.com/in/zakaria-ennaqui-990883362)
+- 💻 [GitHub](https://github.com/zakariaennaqui)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📜 Licence
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ce projet est sous licence MIT – libre à utiliser, modifier et distribuer.
