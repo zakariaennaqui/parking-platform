@@ -41,9 +41,9 @@ Cette plateforme permet :
 - ├── App.js # Composant principal
 - ├── components/
 - │ ├── UserForm.js # Formulaire utilisateur
-- │ ├── UserInfo.js # Affichage des infos utilisateur
+- │ ├── UserInfo.js # Affichage infos user
 - │ ├── Payment.js # Paiement (simulé)
-- │ └── UserList.js # Admin – Liste et gestion des utilisateurs
+- │ └── UserList.js # Admin-Liste, gestion u
 
 ---
 
