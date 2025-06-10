@@ -1,8 +1,8 @@
-# 🚗 Plateforme de Gestion de Parking – React
+# Plateforme de Gestion de Parking – React
 
 Une application web pour gérer les utilisateurs d'un parking avec enregistrement, identification par ID, statut de paiement, et interface admin sécurisée.
 
-## 🎯 Objectif
+## Objectif
 
 Cette plateforme permet :
 
@@ -14,7 +14,7 @@ Cette plateforme permet :
 
 ---
 
-## 🧱 Fonctionnalités
+## Fonctionnalités
 
 - ✅ Enregistrement et génération automatique d’un ID
 - ✅ Identification via l’ID
@@ -47,7 +47,7 @@ Cette plateforme permet :
 
 ---
 
-## 🔒 Accès admin
+## Accès admin
 
 - Mot de passe par défaut : `admin`
 - Permet d'accéder à :
@@ -57,7 +57,7 @@ Cette plateforme permet :
 
 ---
 
-## 🚀 Déploiement
+## Déploiement
 
 Projet hébergé sur **Vercel** :
 
@@ -75,13 +75,10 @@ Projet hébergé sur **Vercel** :
 
 ---
 
-## 👨‍💻 Auteur
-- 👤 zakaria ennaqui
+## Auteur
+- zakaria ennaqui
 - 🔗 [LinkedIn](https://www.linkedin.com/in/zakaria-ennaqui-990883362)
-- 💻 [GitHub](https://github.com/zakariaennaqui)
-- 👤 aya benzine
-- 🔗 [LinkedIn](https://www.linkedin.com/in/aya-ben-a700a8351)
-- 💻 [GitHub](https://github.com/username)
+- [GitHub](https://github.com/zakariaennaqui)
 
 ---
 
