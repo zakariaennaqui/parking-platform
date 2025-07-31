@@ -39,7 +39,7 @@ const SignupForm = ({ onRegister }) => {
           value={carPlate}
           onChange={(e) => setCarPlate(e.target.value)}
           required
-        />
+        /> <br />
         <button type="submit">S’inscrire</button>
       </form>
 

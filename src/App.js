@@ -81,7 +81,7 @@ function App() {
   return (
     <div className="App">
       <img
-        src="/Capture d'écran 2025-03-23 023405.png"
+        src="/logo.png"
         alt="Logo Parking"
         style={{ height: '80px', marginBottom: '1rem' }}
       />
