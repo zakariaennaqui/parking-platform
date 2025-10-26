@@ -16,11 +16,11 @@ Cette plateforme permet :
 
 ## Fonctionnalités
 
-- ✅ Enregistrement et génération automatique d’un ID
-- ✅ Identification via l’ID
-- ✅ Paiement local simulé
-- ✅ Interface admin protégée par mot de passe (`admin`)
-- ✅ Ajout et suppression d’utilisateurs (CRUD)
+- Enregistrement et génération automatique d’un ID
+- Identification via l’ID
+- Paiement local simulé
+- Interface admin protégée par mot de passe (`admin`)
+- Ajout et suppression d’utilisateurs (CRUD)
 
 ---
 
