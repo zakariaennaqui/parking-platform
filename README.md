@@ -21,18 +21,13 @@ Cette plateforme permet :
 - ✅ Paiement local simulé
 - ✅ Interface admin protégée par mot de passe (`admin`)
 - ✅ Ajout et suppression d’utilisateurs (CRUD)
-- ✅ Stockage persistant avec `localStorage`
-- ✅ Déployé sur Vercel
 
 ---
 
 ## 🛠️ Technologies utilisées
 
 - [React.js](https://reactjs.org/) (v18+)
-- HTML / CSS
-- `localStorage` pour simuler une base de données
-- Déploiement via [Vercel](https://vercel.com)
-
+  
 ---
 
 ## 📁 Structure du projet
@@ -59,8 +54,6 @@ Cette plateforme permet :
 
 ## Déploiement
 
-Projet hébergé sur **Vercel** :
-
 > 🔗 [Lien de la démo](https://parking-platform-two.vercel.app)
 
 ---
@@ -78,7 +71,7 @@ Projet hébergé sur **Vercel** :
 ## Auteur
 - zakaria ennaqui
 - 🔗 [LinkedIn](https://www.linkedin.com/in/zakaria-ennaqui-990883362)
-- [GitHub](https://github.com/zakariaennaqui)
+- 🔗 [GitHub](https://github.com/zakariaennaqui)
 
 ---
 
